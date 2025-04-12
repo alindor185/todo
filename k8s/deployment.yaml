@@ -13,8 +13,8 @@ spec:
         app: todo
     spec:
       containers:
-      - name: todo
-        image: todo:latest
+      - name: todo-container
+        image: alindor185/todo:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 8080
